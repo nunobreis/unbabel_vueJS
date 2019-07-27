@@ -23,7 +23,7 @@ I chose to go with a CSS-IN-JS approach (as I did in my React project) and get r
 - My code is less polluted, no class names, no ids, no style tags.
 - No margin for leaking styles out of their intention as the styles are the component itself;
 - Provides dynamic rendering and solves most of the CSS limitations that other pre-compiler like SASS / LESS try to but in a more elegant / maintainable way than pre-compilers.
-- Code is more isomorphic as with pre-compilers you have to introduce another language (that browsers don't know about) and compile those into vanilla CSS. With styled components there is no need for after-compilation / build.
+- Code is more isomorphic as with pre-compilers you don't have to introduce another language (that browsers don't know about) and compile those into vanilla CSS. With styled components there is no need for after-compilation / build.
 - CSS-in-JS helps to avoid non-deterministic source order specificity.
 - A better development experience: CSS-in-JS gives the developer more expressiveness while encouraging more maintainable patterns than cascading.
 - Styled Components gives developers API to describe state-based styles in a better way than using a bunch of conditional class names.
