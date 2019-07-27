@@ -30,7 +30,7 @@ I chose to go with a CSS-IN-JS approach (as I did in my React project) and get r
 - This approach also helps with removing dead code.
 
 
-## Project setup
+## 3. Project setup
 ```
 yarn install
 ```
