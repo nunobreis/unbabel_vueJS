@@ -22,7 +22,7 @@ import EditableTitle from '../../atoms/EditableTitle/EditableTitle.vue'
 const Wrapper = styled.div`
   display: flex;
   flex-flow: row nowrap;
-  padding: 3rem 2rem;
+  padding: 2.5rem 3rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
   > div {

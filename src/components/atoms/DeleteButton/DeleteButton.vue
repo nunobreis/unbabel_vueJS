@@ -58,6 +58,7 @@ const StyledButton = styled(Button)`
 const StyledSvg = styled.svg`
   position: absolute;
   top: 0;
+  height: 100%;
 `
 
 export default {

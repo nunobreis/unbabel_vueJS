@@ -3,8 +3,8 @@
     <h1 v-if="saveTranscriptionsFailed">{{ saveTranscriptionsFailed }}</h1>
     <Card>
       <TranscriptionForm
-        v-for="({ voice, text, id }) in transcriptions"
-        :key="id"
+        v-for="({ voice, text, id }, index) in transcriptions"
+        :key="index"
         :title="voice"
         :text="text"
         :id="id"
